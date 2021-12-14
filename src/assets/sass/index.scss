@@ -1,0 +1,27 @@
+@import "~normalize.css/normalize.css";
+//----Tachyons------//
+@import "~tachyons/src/_media-queries.css";
+@import "~tachyons/src/_flexbox.css";
+@import "~tachyons/src/_position.css";
+@import "~tachyons/src/_overflow.css";
+@import "~tachyons/src/_spacing.css";
+@import "~tachyons/src/_text-align.css";
+@import "~tachyons/src/_widths.css";
+@import "~tachyons/src/_z-index.css";
+@import "~tachyons/src/_links.css";
+@import "~tachyons/src/_forms.css";
+@import "~tachyons/src/_word-break.css";
+@import "~tachyons/src/_visibility.css";
+@import "~tachyons/src/_border-colors.css";
+@import "~tachyons/src/_colors.css";
+@import "~tachyons/src/_skins.css";
+@import "~tachyons/src/_borders.css";
+
+
+
+@import "./typography.scss";
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
